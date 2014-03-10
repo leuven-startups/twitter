@@ -26,3 +26,7 @@ end
 search "#leuven #startup" do |tweet|
   retweet(tweet[:id])
 end
+
+search "leuven.io" do |tweet|
+  retweet(tweet[:id])
+end
