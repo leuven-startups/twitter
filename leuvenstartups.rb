@@ -9,9 +9,9 @@ require 'chatterbot/dsl'
 # remove this to update the db
 #no_update
 # remove this to get less output when running
-#verbose
+verbose
 
-search 'leuven startups', :result_type => :popular do |tweet|
+search 'leuven startups' do |tweet|
   retweet(tweet[:id])
 end
 
