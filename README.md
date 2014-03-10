@@ -1,4 +1,4 @@
-twitter
+Leuven Startups
 =======
 
-The Twitter bot running at @LeuvenStartups
+The Twitter bot happily working at @LeuvenStartups
